@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pig Dice</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body> 
+    <div class="container">
+        <div class="jumbotron">
+            <h1> PIG DICE GAME </h1>
+            <div class="row">
+                <div id="mdtext"class="col-md-9">
+             <h2>Instruction</h2>
+             <p>Each player in turn throws the die and continues to throw the die until either a 1 is thrown or they decide to stop.  If a 1 is thrown they score nothing for that turn.  If they elect to stop before a 1 is thrown they score the total of the numbers thrown in that turn.  The scores are noted for each turn and the player who obtains a total score over 100, wins the game, provided they are not then out-scored by a subsequent player who has thrown one fewer rolls and still has a turn left.</p>
+            <form id="pigForm" class="form-group" action="index.html" method="post">
+                <div class="player-group">
+                    <label class="player-group">Enter Player1</label>
+                    <input id ="playerName1" type="text">
+                </div>
+              </div>
+             </div>
+                <div class="playersName">
+                    <label class="player-group">Enter player2</label>
+                    <input id="playerName2" type="text">
+                </div>
+                <button class="payer-group btn- success" name="button">Present</button>
+            </form>
+         </div>
+            <br>
+            <div class="game Display">
+                <div class="col-md-5" id="gameStatusDipslay1">
+                    <h1><span id ="playerName"></span>Score: <span class="gameStatusDisplay1">0</span></h1>
+                    <div id="paly1Button">
+                    <h2>Player <span class="playerStatus" class="gameStatusDisplay">'s Turn</h2> 
+                    <h2>score for this Turn: <span id ="turnScore" class="ganeStatusDisplay turnScore"></span></h2>
+                    <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span> </h2> 
+                    
+                    <button type="button" class="br Mtn-warning btn-lg rollpig">Keep rolling for More points!</button>
+                    <button type="button" class="btn btn-primary btn-lg holding">Stop rolling and keep points...</button>
+               </div>
+                <div class="col-md-9 col" id="gameStatusDisplay2">
+                    <h1><span id="playerName2"></span>Score:<span class="gameStatusDispay player2Score">0</span></h1>
+                   <div id="playerName">
+                    <h2>Player <span class="playerStatus"></span></h2>
+                    <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
+                    <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h2>
+                    
+                    <button type="button" class="br Mtn btn-warning btn-lg rollPig">Keep rolling for More points!</button>
+                    <button type="button" class="btn btn-primary btn-lg holding">Stop rolling and keep points...</button>
+                  </div>  
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+  </div>
+ </body>
+</html>

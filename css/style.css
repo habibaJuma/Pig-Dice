@@ -1,0 +1,23 @@
+
+.player-console{
+    display: none;
+}
+
+.body{
+    background-image: url("../image/dice2.jpeg")
+}
+#background {
+    background: url("../image/dice1.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 90px;
+}
+
+.jumbotron{
+    color:blue;
+}
+
+.box{
+    background-image: url()
+}
