@@ -1,23 +1,28 @@
-
-.player-console{
-    display: none;
-}
-
-.body{
-    background-image: url("../image/dice2.jpeg")
+/*#body{
+    background-image: url("../image/dice2.gif");
+    background: no-repeat;
+    background-size: cover;
 }
 #background {
-    background: url("../image/dice1.jpeg");
+    background: url("../image/dice.gif");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    padding: 100px 90px;
+    padding: 100px 0px;
+}*/
+body {
+    background-image: url("../image/dice3.jpg");
+}
+.player-console{
+    display: none
+}
+.jumbotron {
+    background-image: url("../image/DICE.webp");
+    background-size: cover;
+    color:whitesmoke;
 }
 
-.jumbotron{
-    color:blue;
-}
+.button {
+    color: black;
 
-.box{
-    background-image: url()
 }
