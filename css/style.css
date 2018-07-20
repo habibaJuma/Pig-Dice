@@ -11,18 +11,15 @@
     padding: 100px 0px;
 }*/
 body {
-    background-image: url("../image/dice3.jpg");
+    background-image: url("../image/pig.jpeg");
+    background-repeat:  none;
 }
+
 .player-console{
     display: none
 }
 .jumbotron {
-    background-image: url("../image/DICE.webp");
+    background-image: url("../image/dice3.jpg");
     background-size: cover;
-    color:whitesmoke;
-}
-
-.button {
-    color: black;
-
+    color:blue;
 }
